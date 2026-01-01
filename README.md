@@ -67,6 +67,14 @@ Test your memory by following an ever-growing sequence of colors — how far can
 
 ---
 
+## 📖 How to Play
+
+- Press any key or tap Start
+- Repeat the sequence shown
+- Game ends on wrong input
+
+---
+
 ## ▶️ How to Run Locally
 
 1. Clone the repository:
