@@ -61,10 +61,10 @@ function playPattern(index) {
     if (index < patterns.length) {
         var color = buttonColors[patterns[index]];
         buttonPress(color);
-        var delay = Math.max(300, 700 - (level * 50)); // speed increases with level
+        var delay = Math.max(400, 700 - (level * 10)); // speed increases with level
         setTimeout(function () { playPattern(index + 1); }, delay);
     } else {
-        setTimeout(function () { clickEnabled = true; }, 200);
+        setTimeout(function () { clickEnabled = true; }, 50);
     }
 }
 
@@ -163,4 +163,5 @@ function buttonPress(colorOfButton) {
 function randomNum() {
     var randNum = Math.floor(Math.random() * 4);
     return randNum;
+
 }
