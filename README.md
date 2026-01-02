@@ -1,82 +1,65 @@
-# 🎮 Simon Game
+# Simon Game – JavaScript Web App
 
-A modern, responsive implementation of the classic **Simon Memory Game**, built using **HTML, CSS, JavaScript, jQuery, and Bootstrap**.  
-Test your memory by following an ever-growing sequence of colors — how far can you go?
-
----
-
-## 🚀 Live Demo
-
-👉 https://ayushbrmn08.github.io/Simon-Game/
+A lightweight and responsive Simon Memory Game built using HTML, CSS, JavaScript, jQuery, and Bootstrap.  
+Follow the color sequence and repeat it correctly to move to the next level.
 
 ---
 
-## 📸 Screenshot
-
-<img width="2100" height="1425" alt="image" src="https://github.com/user-attachments/assets/fc6eebac-45fb-4f50-801a-1b38e7f99859" />
-
-
-## 📌 Features
-
-- 🎯 **Classic Simon Gameplay**
-  - Follow and repeat the randomly generated color sequence
-  - Difficulty increases as the game progresses
-
-- 📈 **High Score Tracking**
-  - Stores the highest level achieved using **LocalStorage**
-  - High score persists even after page reload
-
-- 🎵 **Sound Effects**
-  - Unique sound for each color button
-  - Game-over sound feedback
-
-- 💡 **Responsive Design**
-  - Fully responsive layout for desktop, tablet, and mobile
-  - Adaptive button sizes and layout using CSS media queries
-
-- 🖱️ **Keyboard & Button Controls**
-  - Start the game using any key (desktop)
-  - Mobile-friendly **Start Button**
-
-- ⚡ **Smooth Animations**
-  - Button flash animations
-  - Visual feedback for correct and wrong inputs
+## Live Demo
+https://ayushbrmn08.github.io/Simon-Game/
 
 ---
 
-## 🛠️ Technologies Used
+## Features
 
-- **HTML5** – Structure & semantic layout  
-- **CSS3** – Styling, animations & responsiveness  
-- **JavaScript (ES5)** – Game logic and state handling  
-- **jQuery** – DOM manipulation, animations & event handling  
-- **Bootstrap 5** – Responsive grid system  
-- **LocalStorage API** – High score persistence  
-- **Audio API** – Sound playback control  
-
----
-
-## 🧠 Game Logic Overview
-
-1. Game starts on keypress or button click  
-2. A random color is added to the pattern each level  
-3. Pattern is displayed with animation and sound  
-4. User inputs are checked step-by-step  
-5. Wrong input → Game Over → High score update  
-6. Correct sequence → Level increases  
+- Random color sequence generation  
+- Difficulty increases with each level  
+- Automatic game-over detection  
+- High score stored using LocalStorage  
+- Sound and visual feedback  
+- Responsive layout for desktop and mobile  
 
 ---
 
-## 📖 How to Play
+## Tech Stack
 
-- Press any key or tap Start
-- Repeat the sequence shown
-- Game ends on wrong input
+- HTML5 – Structure  
+- CSS3 – Styling  
+- JavaScript (ES5) – Game logic  
+- jQuery – DOM manipulation  
+- Bootstrap 5 – Responsive UI  
+- LocalStorage & Audio APIs  
 
 ---
 
-## ▶️ How to Run Locally
+## Screenshot
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/Simon-Game.git
+<img width="2100" height="1425" alt="Simon Game Screenshot" src="https://github.com/user-attachments/assets/fc6eebac-45fb-4f50-801a-1b38e7f99859" />
+
+---
+
+## How It Works
+
+1. A random color is generated at each level  
+2. The color sequence is displayed with animation and sound  
+3. User input is recorded and validated step-by-step  
+4. The level increases on correct input  
+5. Incorrect input ends the game  
+
+---
+
+## How to Play
+
+1. Press any key or tap Start  
+2. Watch the color sequence  
+3. Repeat the sequence in the correct order  
+4. One wrong input ends the game  
+
+---
+
+## Run Locally
+
+```bash
+git clone https://github.com/ayushbrmn08/Simon-Game.git
+cd Simon-Game
+open index.html
