@@ -3,12 +3,10 @@
 A lightweight and responsive Simon Memory Game built using HTML, CSS, JavaScript, jQuery, and Bootstrap.  
 Follow the color sequence and repeat it correctly to move to the next level.
 
----
 
 ## Live Demo
 https://ayushbrmn08.github.io/Simon-Game/
 
----
 
 ## Features
 
@@ -19,7 +17,6 @@ https://ayushbrmn08.github.io/Simon-Game/
 - Sound and visual feedback  
 - Responsive layout for desktop and mobile  
 
----
 
 ## Tech Stack
 
@@ -30,13 +27,11 @@ https://ayushbrmn08.github.io/Simon-Game/
 - Bootstrap 5 – Responsive UI  
 - LocalStorage & Audio APIs  
 
----
 
 ## Screenshot
 
 <img width="2100" height="1425" alt="Simon Game Screenshot" src="https://github.com/user-attachments/assets/fc6eebac-45fb-4f50-801a-1b38e7f99859" />
 
----
 
 ## How It Works
 
@@ -46,7 +41,6 @@ https://ayushbrmn08.github.io/Simon-Game/
 4. The level increases on correct input  
 5. Incorrect input ends the game  
 
----
 
 ## How to Play
 
@@ -55,7 +49,6 @@ https://ayushbrmn08.github.io/Simon-Game/
 3. Repeat the sequence in the correct order  
 4. One wrong input ends the game  
 
----
 
 ## Run Locally
 
